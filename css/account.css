@@ -1,28 +1,28 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Baloo Bhai 2', Arial, sans-serif;
-    max-width: 480px;
-    margin: 0 auto;
-    height: auto;
-    overflow-x: hidden;
-    background: linear-gradient(to bottom, #FFC94A 6%, #FFEEC7 43%);
-    background-repeat: no-repeat;
+  font-family: "Baloo Bhai 2", Arial, sans-serif;
+  max-width: 480px;
+  margin: 0 auto;
+  height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(to bottom, #ffc94a 6%, #ffeec7 43%);
+  background-repeat: no-repeat;
 }
 
 h1 {
-    font-size: 40px;
-    color: white;
+  font-size: 40px;
+  color: white;
 }
 h5 {
-    font-size: 25px;
-    color: white;
+  font-size: 25px;
+  color: white;
 }
 header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
