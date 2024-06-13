@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     showSlide(currentIndex + 1);
                 }
                 isScrolling = false;
-            }, 3500); // Adjust delay as needed to prevent rapid scrolling
+            }, 5000); // Adjust delay as needed to prevent rapid scrolling
         }
     });
 
