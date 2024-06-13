@@ -121,3 +121,8 @@ header {
     width: 120px;
     height: 120px;
 }
+
+.check_box img {
+    width: 100px;
+    height: 100px;
+}
