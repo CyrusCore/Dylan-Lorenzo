@@ -13,6 +13,12 @@ body {
   background-repeat: no-repeat;
 }
 
+h4 {
+  color: white;
+  /* margin-top: 12px; */
+  /* margin-left: 5px; */
+}
+
 .banner-carousel {
   width: 100%;
   overflow: hidden;
@@ -75,7 +81,9 @@ body {
 
 .header {
   width: 100%;
+  display: flex;
   text-align: left;
+  align-items: center;
   margin-bottom: 20px;
 }
 
@@ -88,7 +96,8 @@ p {
 }
 
 h1 {
-  font-size: 55px;
+  color: white;
+  font-size: 50px;
 }
 
 .now-playing {

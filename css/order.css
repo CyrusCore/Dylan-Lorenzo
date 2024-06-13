@@ -6,7 +6,7 @@ body {
   font-family: "Baloo Bhai 2", Arial, sans-serif;
   max-width: 480px;
   margin: 0 auto;
-  height: 100vh;
+  height: 250vh;
   overflow-x: hidden;
   background: linear-gradient(to bottom, #ffc94a 6%, #ffeec7 43%);
   background-repeat: no-repeat;
@@ -19,9 +19,15 @@ body {
 h1 {
   font-size: 40px;
   color: white;
+  margin-left: 10px;
 }
 h5 {
   font-size: 25px;
+}
+h4 {
+    color: white;
+    margin-top: 12px;
+    margin-left: 5px;
 }
 header {
   display: flex;
