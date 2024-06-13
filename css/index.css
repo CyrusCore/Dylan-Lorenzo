@@ -92,9 +92,13 @@ h4 {
 }
 
 p {
+  color: white;
   font-size: 23px;
 }
 
+h2 {
+  color: white;
+}
 h1 {
   color: white;
   font-size: 50px;
