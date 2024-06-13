@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order History</title>
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="order-history-container">
+        <header>
+            <div class="back-button">&lt;</div>
+            <div class="title">Order History</div>
+        </header>
+        <div class="info-text">All order history will be shown here</div>
+        <div class="tabs">
+            <div class="tab active" onclick="showTab('active-orders')">Active Orders</div>
+            <div class="tab" onclick="showTab('recent-transactions')">Recent Transactions</div>
+        </div>
+        <div class="tab-content" id="active-orders">
+            <div class="order-card">
+                <div class="order-details">
+                    <div class="order-title">Movie</div>
+                    <div class="order-item">Vina: Sebelum 7 Hari</div>
+                    <div class="order-date">Order Date: 12 Dec 2023</div>
+                    <div class="order-more">Tap to see more details ></div>
+                </div>
+                <div class="order-qr">
+                    <img src="assets/order/QR Code 1.png" alt="QR Code">
+                </div>
+            </div>
+            <div class="order-card">
+                <div class="order-details">
+                    <div class="order-title">Menu</div>
+                    <div class="order-item">Paket Promo B</div>
+                    <div class="order-date">Order Date: 12 Dec 2023</div>
+                    <div class="order-more">Tap to see more details ></div>
+                </div>
+                <div class="order-qr">
+                    <img src="assets/order/QR Code 2.png" alt="QR Code">
+                </div>
+            </div>
+        </div>
+        <div class="tab-content" id="recent-transactions" style="display: none;">
+            <p>No recent transactions.</p>
+        </div>
+    </div>
+
+    <script src="js/order.js"></script>
+</body>
+</html>
